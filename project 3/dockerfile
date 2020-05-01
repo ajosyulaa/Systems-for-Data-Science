@@ -1,0 +1,8 @@
+FROM continuumio/miniconda
+COPY . /templates
+WORKDIR /templates
+RUN conda env create -f env.yaml
+RUN echo "conda activate myenv" > ~/.bashrc
+ENV PATH /opt/conda/envs/myenv/bin:$PATH
+EXPOSE 5000
+CMD python ./index.py

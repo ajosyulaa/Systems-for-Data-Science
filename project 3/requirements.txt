@@ -1,0 +1,6 @@
+flask
+torch
+Pillow
+cudatoolkit-9.2
+pytorch-1.2.0
+torchvision-0.4.0
