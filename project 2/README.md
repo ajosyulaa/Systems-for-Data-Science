@@ -9,7 +9,7 @@ Workers repeatedly ask the master which file they should work on (until they lea
 The program prints the word counts in reverse order by frequency (so, most frequent word first) - each line lists a word and its frequency.
 
 
-Build
+# Build
 
 Compile and test
 ```
